@@ -17,9 +17,9 @@
     let c = document.getElementById('stc');
     let kq = document.getElementById('kq');
     function tinh() {
-        let ca = a.value;
-        let cb = b.value;
-        let cc = c.value;
+        let ca = +a.value;
+        let cb = +b.value;
+        let cc = +git c.value;
         let rs = ""
         if (ca+cb>cc && cc+cb>ca && ca+cc>cb) {
             rs = "Tam giác";
